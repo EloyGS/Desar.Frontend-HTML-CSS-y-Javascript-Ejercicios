@@ -1,0 +1,17 @@
+{
+    "name": "Disparos",
+    "short_name": "Tiros",
+    "icons": [{
+      "src": "icon/estrella192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }, {
+        "src": "icon/estrella512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#6200ee"
+  }

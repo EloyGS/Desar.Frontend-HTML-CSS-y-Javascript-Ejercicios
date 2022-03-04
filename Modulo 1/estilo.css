@@ -1,0 +1,9 @@
+@charset "utf-8";
+body {
+    font-family: 'SF UI Display','Poppins',sans-serif;
+}
+hr {
+    width: 32%;text-align:left;margin-left:0;
+    height: 0;
+    border-top: 1px dashed black!important
+}

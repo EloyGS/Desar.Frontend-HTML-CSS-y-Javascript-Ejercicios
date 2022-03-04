@@ -1,0 +1,15 @@
+{
+    "name": "MOOC_html_mod7-AJAX_entrega",
+    "author": "ging-moocs",
+    "license": "GNU",
+    "version": "0.0.0",
+    "info": {
+        "githubURL": "ging-moocs/MOOC_html_mod7-AJAX_entrega",
+        "serverUrl": "https://moocauto.dit.upm.es/",
+        "courseId": "450",
+        "assignmentId": "196"
+    },
+    "dependencies": {
+        "autocorector": "^2.1.1"
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="Ejercicio_mod3.js"></script>
+    <link rel="stylesheet" href="Ejercicio_mod3_estilos.css ">
+  </head>
+  <body>
+    <div id="caja">
+      <h1>Calculadaora web</h1>
+      <!--<input type="text" id="pantalla" onclick="vaciar()" onkeypress="return validar(event)" />
+          MI MANERA DE GESTIONAR LOS ERRORES DURANTE LA INTRODUCCIÓN DE LOS NUMEROS
+      -->
+      <input type="text" id="pantalla" onclick="vaciar()" />
+      <button id="borrar" onclick="borra()">X</button>
+      <h2 id="info" class="grande" title="Info sobre el número">
+        Info sobre el número
+      </h2>
+      <h3 class="separador">Operaciones unitarias</h3>
+      <button id="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+      <button id="modulo" onclick="mob()">Mod</button>
+      <button id="factorial" onclick="fact()">!n</button>
+      <h3 class="separador">Operaciones binarias</h3>
+      <button id="multiplicacion" onclick="mul()">*</button>
+      <button id="suma" onclick="add()">+</button>
+      <button id="resta" onclick="substract()">-</button>
+      <button id="division" onclick="division()">/</button>
+      <button id="potencia" onclick="potencia()">x<sup>y</sup></button>
+      <button id="igual" onclick="eq()">=</button>
+      <h3 class="separador">Operaciones en formato CSV</h3>
+      <button id="sumatorio" onclick="sumatorio()">&Sigma;x</button>
+      <button id="ordenar" onclick="ordenar()">ordenar</button>
+      <button id="revertir" onclick="revertir()">revertir</button>
+      <button id="quitar" onclick="quitar()">quitar</button>
+  </div>
+  <footer>&copy; EGS - Ejercicio P2P obligatorio | Módulo 3 - <em>Introduccióna ES6+, let, VS Code, DOM,
+    boolean, if, bucles</em> - Desarrollo frontend 10ª ed.</footer>
+  </body>
+</html>
